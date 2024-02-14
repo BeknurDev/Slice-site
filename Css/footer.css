@@ -1,0 +1,33 @@
+.container-footer-text {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 0.5fr;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.container-footer-end {
+    margin-top: 26px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 0.5fr 0.5fr 0.5fr 2fr;
+    align-items: center;
+    margin-left: 4%;
+    margin-bottom: 10px;
+}
+.h1-footer {
+    color: white; 
+    text-decoration: none;
+ }
+.footer-a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    transition: 0.25s;
+}
+
+footer hr {
+    border-color: rgb(45, 45, 45); 
+    border-width: 1.6px;
+    border-style: solid;
+    margin-bottom: -10px;
+}
+.footer-a:hover {
+    color: white;
+}

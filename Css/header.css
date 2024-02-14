@@ -1,0 +1,79 @@
+/*-----------------Left-side---------------------*/
+header {
+    top: 0;
+    position: fixed;
+    background-color: rgba(18, 18, 20, 1);
+    width: 100%;
+    z-index: 1;
+}
+header .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 75px;
+}
+header .left-side {
+    display: flex;
+    float: left;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+}
+.icon-header {
+    width: 97px;
+    height: fit-content;
+}
+p.header {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+/*-----------------Right-side----------------------*/
+header .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    float: inline-end;
+    margin-right: 20px;
+}
+.header-btn {
+    width: 95px;
+    height: 35px;
+    border-radius: 32px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.4px;
+}
+#header-btn-1 {
+    color: white;
+    background-color: inherit;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+}
+#header-btn-2 {
+    color: black;
+    background-color: white;
+    transition: background-color 0.15s;
+}
+#header-btn-1:hover {
+    background-color: rgb(44, 44, 44);
+}
+#header-btn-1:active {
+    background-color: rgb(31, 31, 31);
+}
+#header-btn-2:hover {
+    background-color: rgb(220, 220, 220);
+}
+#header-btn-2:active {
+    background-color: rgb(184, 184, 184);
+}
+/*---------------<a> tag decoration------------------*/
+.header-a-tag {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    cursor: pointer;
+    transition: color 0.15s;
+}
+.header-a-tag:hover {
+    color: white;
+}

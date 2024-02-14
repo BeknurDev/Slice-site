@@ -1,0 +1,12 @@
+.mobile-message {
+    display: block;
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Roboto, Jisephin sans-serif;
+    border-radius: 20px;
+    padding: 20px;
+}
+.desktop-content {
+    display: none;
+}

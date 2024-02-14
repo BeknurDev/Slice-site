@@ -1,0 +1,48 @@
+article.section-5 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+article.section-5 aside.right-side {
+    margin-top: 8rem;
+    margin-right: 30px;
+    color: white;
+    float: right;
+    text-align: right;
+}
+.background-image-5 {
+    max-width: 580px;
+    height: fit-content;
+    margin-left: 50px;
+}
+article.section-5 aside.right-side .text-1 {
+    color: rgb(100,100,100);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+article.section-5 aside.right-side .text-2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+}
+article.section-5 aside.right-side .text-3 {
+    width: 422px;
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.discover-coso {
+    background-color: rgba(0, 51, 255, 1);
+    width: 160px;
+    height: 36px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.discover-coso:hover {
+    background-color: white;
+    color: rgba(0, 51, 255, 1);
+}
