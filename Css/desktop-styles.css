@@ -1,15 +1,3 @@
-@import url(Css/default.css);
-@import url(Css/header.css);
-@import url(Css/blue-ad.css);
-@import url(Css/section-1.css);
-@import url(Css/section-2.css);
-@import url(Css/section-3.css);
-@import url(Css/section-4.css);
-@import url(Css/section-5.css);
-@import url(Css/section-6.css);
-@import url(Css/section-7.css);
-@import url(Css/footer.css);
-
 .mobile-message {
     display: none;
 }
