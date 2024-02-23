@@ -22,11 +22,6 @@ header .left-side {
     width: 97px;
     height: fit-content;
 }
-p.header {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-}
 /*-----------------Right-side----------------------*/
 header .right-side {
     display: flex;
@@ -73,6 +68,9 @@ header .right-side {
     color: rgb(90, 90, 90);
     cursor: pointer;
     transition: color 0.15s;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 .header-a-tag:hover {
     color: white;
